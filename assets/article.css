@@ -1,0 +1,28 @@
+.cardGen {
+    border: 1px solid black;
+  }
+  
+  .artPair {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  
+  .artImpair {
+    justify-content: space-around;
+  }
+  .finlandeStyle {
+    display: flex;
+  }
+  .suedeStyle {
+    display: flex;
+  }
+  .norvegeStyle {
+    display: flex;
+  }
+  .islandeStyle {
+    display: flex;
+  }
+  
+  .artNone {
+    display: none;
+  }

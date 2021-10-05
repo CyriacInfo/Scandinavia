@@ -1,13 +1,13 @@
 const country = [
     {
-        name: "Danemark",
+        name: "Finlande",
         travels: "",
         activity: "",
         lodging: "",
         article: [
+          { picture: "https://picsum.photos/200/300", title: "0", paragraph: "lorem", lien: "" },
           { picture: "https://picsum.photos/200/300", title: "1", paragraph: "lorem", lien: "" },
           { picture: "https://picsum.photos/200/300", title: "2", paragraph: "lorem", lien: "" },
-          { picture: "https://picsum.photos/200/300", title: "3", paragraph: "lorem", lien: "" },
         ],
     },
     {
@@ -16,9 +16,9 @@ const country = [
         activity: "",
         lodging: "",
         article: [
+          { picture: "https://picsum.photos/200/300", title: "3", paragraph: "lorem", lien: "" },
           { picture: "https://picsum.photos/200/300", title: "4", paragraph: "lorem", lien: "" },
           { picture: "https://picsum.photos/200/300", title: "5", paragraph: "lorem", lien: "" },
-          { picture: "https://picsum.photos/200/300", title: "6", paragraph: "lorem", lien: "" },
         ],
     },
     {
@@ -28,9 +28,9 @@ const country = [
         activity: "",
         lodging: "",
         article: [
+          { picture: "https://picsum.photos/200/300", title: "6", paragraph: "lorem", lien: "" },
           { picture: "https://picsum.photos/200/300", title: "7", paragraph: "lorem", lien: "" },
           { picture: "https://picsum.photos/200/300", title: "8", paragraph: "lorem", lien: "" },
-          { picture: "https://picsum.photos/200/300", title: "9", paragraph: "lorem", lien: "" },
         ],
     },
     {
@@ -39,9 +39,9 @@ const country = [
         activity: "",
         lodging: "",
         article: [
+          { picture: "https://picsum.photos/200/300", title: "9", paragraph: "lorem", lien: "" },
           { picture: "https://picsum.photos/200/300", title: "10", paragraph: "lorem", lien: "" },
           { picture: "https://picsum.photos/200/300", title: "11", paragraph: "lorem", lien: "" },
-          { picture: "https://picsum.photos/200/300", title: "12", paragraph: "lorem", lien: "" },
         ],
       },
   ];

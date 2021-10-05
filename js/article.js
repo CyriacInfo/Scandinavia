@@ -66,10 +66,22 @@ for (let i = 0; i < country.length; i++) {
     //
     for (let t = 0; t < cardGenerator.length; t++) {
       if (t % 2 === 0) {
-          cardGenerator[t].classList.add("artImpair");
-        } else {
-          cardGenerator[t].classList.add("artPair");
+        cardGenerator[t].classList.add("artImpair");
+      } else {
+        cardGenerator[t].classList.add("artPair");
       }
+
+      if (t < 3) {
+        cardGenerator[t].classList.add("finlandeStyle");
+      } else if (t > 2 && t < 6) {
+        cardGenerator[t].classList.add("suedeStyle");
+      } else if (t > 5 && t < 9) {
+        cardGenerator[t].classList.add("norvegeStyle");
+      } else {
+        cardGenerator[t].classList.add("islandeStyle");
+      }
+
+      cardGenerator[t].id = "artId" + t;
     }
   }
 }

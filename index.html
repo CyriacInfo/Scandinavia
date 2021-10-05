@@ -9,69 +9,89 @@
     <script type="text/javascript" src="js/carousel.js" defer></script>
   </head>
   <body>
+    <div class="header">
     <nav id="navigator">
-      <div>Logo</div>
-      <ul>
-        <li><a href="#">Informations</a></li>
-        <li><a href="#">Reservation</a></li>
-        <li><a href="#">Contact</a></li>
+      <img class="logo" src="assets/img/logo.png" alt="logo">
+      <ul class="menu">
         <li><a href="#">Accueil</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">S'informer</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
+  </div>
 
     <div id="divBody">
-      <div class="carousel">
+      <div class="carousel title">
+        <h1  class="titreScandinavia"><link href="https://fr.allfont.net/allfont.css?fonts=coolvetica-regular" rel="stylesheet" type="text/css" />Scandinavia</h1>
         <img class="slider" src="assets/img/aurora-gffde6b9a7_1920.jpg" alt="" />
         <img class="slider" src="assets/img/norway-gb0023648b_1920.jpg" alt="" />
         <img class="slider" src="assets/img/norway-gcbef8defa_1920.jpg" alt="" />
       </div>
 
-      <div id="buttonInfo">
-        <button>Informations</button>
+      <div class="titrePage">
+        <h2 id="TitrePageAccueil">
+        Informations
+        </h2>
       </div>
 
-      <div id="tools">
-        <div>
-          <h3>Activités</h3>
-          <img src="#" alt="#" />
-          <p>
+      <div class="container">
+        <div class="blockPays">
+          <img class="imgBlock" src="assets/img/finland.png" alt="">
+        </div>
+        <div class="blockPays">
+          <img class="imgBlock" src="assets/img/norvège.png" alt="">
+        </div>
+        <div class="blockPays">
+          <img class="imgBlock" src="assets/img/Suède.png" alt="">
+        </div>
+        <div class="blockPays">
+          <img class="imgBlock" src="assets/img/island.png" alt="">
+        </div>
+
+      </div>
+
+      <div class="blocks">
+        <div class="blockinet">
+          <h3 class="titreCarte">Activités</h3>
+          <img class="imgCarte" src="assets/img/activité.jpeg" alt="imgActivité" />
+          <p class="paragCarte">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat,
             perspiciatis commodi ipsa suscipit a modi. Quae pariatur, debitis,
             eaque quibusdam perferendis in illum eligendi, nesciunt doloribus
             adipisci eum voluptatem corporis.
           </p>
-          <button>Voir plus</button>
+          <button class="buttonCarte">Voir plus</button>
         </div>
-        <div>
-          <h3>Transports</h3>
-          <img src="#" alt="#" />
-          <p>
+        <div class="blockinet">
+          <h3 class="titreCarte">Transports</h3>
+          <img class="imgCarte" src="assets/img/transport.jpeg" alt="imgTransport" />
+          <p class="paragCarte">
+            Vous souhaitez organiser votre départ en vacances vers ces destinations merveilleuses,
+            c'est ici que vous trouverez les conseils concernant les moyens de tranports pour vous balader.
+            Des transports ferrovières, aux moyens de locomotions.
+          </p>
+          <button class="buttonCarte">Voir Plus</button>
+        </div>
+        <div class="blockinet">
+          <h3 class="titreCarte">Logements</h3>
+          <img class="imgCarte" src="assets/img/logement.jpeg" alt="imgLogement" />
+          <p class="paragCarte">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat,
             perspiciatis commodi ipsa suscipit a modi. Quae pariatur, debitis,
             eaque quibusdam perferendis in illum eligendi, nesciunt doloribus
             adipisci eum voluptatem corporis.
           </p>
-          <button>Voir Plus</button>
-        </div>
-        <div>
-          <h3>Logements</h3>
-          <img src="#" alt="#" />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat,
-            perspiciatis commodi ipsa suscipit a modi. Quae pariatur, debitis,
-            eaque quibusdam perferendis in illum eligendi, nesciunt doloribus
-            adipisci eum voluptatem corporis.
-          </p>
-          <button>Voir Plus</button>
+          <button class="buttonCarte">Voir Plus</button>
         </div>
       </div>
 
-      <div id="panelPic">
-        <img src="#" alt="#" />
-        <button>Je réserve mon voyage</button>
+      <div class="panelPic">
+        <img class="imgReservation" src="assets/img/reservation.jpg" alt="#" />
       </div>
+      <button class="btnReservation"><a href="#">Je réserve mon voyage</a></button>
 
-      <footer>
+      <footer id="footer">
         <ul>
           <li><a href="">Mentions Légales</a></li>
           <li><a href="">item 2</a></li>
