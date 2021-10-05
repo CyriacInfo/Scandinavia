@@ -114,8 +114,10 @@ object-fit: cover;
     height : 290px;
     width : 100%;
     background: rgb(44,57,92);
-    background: linear-gradient(247deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, rgba(0,88,106,0.72) 83%);
-
+    background: linear-gradient(247deg,
+     rgba(44,57,92,1) 24%,
+     rgba(9,141,172,1) 56%,
+     rgba(0,88,106,0.72) 83%);
     justify-content: center;
 }
 
@@ -197,7 +199,29 @@ object-fit: cover;
       color: #2C395C;
       text-shadow: 1px 1px 1px rgb(197, 196, 196); 
       
-  }
+   }
+  /*-------------------Articles------------------------ */
+.articlePPrincipale{
+    display: block;
+    height : 250px;
+    width : 100vw;
+}
+
+.imgArticle{
+
+}
+
+.titreArticle {
+
+}
+
+.article{
+
+}
+
+.btnArticle{
+
+}
 
 /* ------------------reservation---------------- */
   .panelPic {
@@ -322,7 +346,7 @@ background: linear-gradient(90deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, 
         display: block;
         flex-direction: row;
         justify-content: center;
-        margin: 0px auto 10px auto;
+       margin: 0px auto 10px auto;
     }
 
     #mail{
