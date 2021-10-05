@@ -1,0 +1,68 @@
+ul {
+    background: #2C395C;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    color: goldenrod;
+  }
+  
+  head {
+    text-align: center;  
+  }
+  .logo {width: 50px;
+    height: 50px;
+    align-items: center;
+  }
+  .carousel {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.titreScandinavia{
+    display: flex;
+    width: 180px;
+    background-color: #5C3232;
+    opacity: 65%;
+    padding: 5px;
+    padding-left: 15px;
+    margin: 0;
+    position: absolute;
+    color: white;
+    border-radius: 15px;
+    }
+    .title{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+  body {
+    align-items: center; 
+     height: 60px;
+     background-size: cover;
+     text-align: center;
+     margin:auto;
+     background-color: #2C395C;
+  }
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+      }
+    
+
+
