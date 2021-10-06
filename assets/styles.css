@@ -1,3 +1,392 @@
+<<<<<<< HEAD
+/*------------------ Barre nav -----------------*/
+body{
+    font-family: 'Coolvetica-Regular', arial;
+    width: 101vw;
+    overflow-x : hidden;
+    margin: 0 0;
+    background-color: transparent;
+    
+
+}
+
+.header {
+}
+
+#navigator {
+    display: flex;
+    padding: 0;
+    background: linear-gradient(90deg,
+     rgba(44,57,92,1) 24%,
+     rgba(9,141,172,1) 56%,
+     rgba(0,88,106,0.72) 83%);
+    color: white;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+}
+.logo {
+    max-width: 50px;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    vertical-align: center;
+    position: absolute;
+    margin-bottom: 20px;
+}
+#navigator li {
+    flex-direction: column;
+    list-style-type: none;
+    display: block;
+    color: white;
+    text-shadow:  1px 1px 1px black ;
+    
+    }
+
+#navigator li a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 30px 0 30px;
+    
+}
+#navigator li :hover {
+color: rgb(80, 80, 80);
+}
+
+/* --------------------haut de page----------------------- */
+
+
+.slider {
+width: 100%;
+max-height: 70vh;
+object-fit: cover;
+margin-top: 54px ;
+}
+
+.carousel {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.titreScandinavia{
+    display: flex;
+    width: 200px;
+    background-color: #5C3232;
+    opacity: 65%;
+    padding: 5px;
+    padding-left: 15px;
+    margin: 0;
+    position: absolute;
+    color: white;
+    border-radius: 15px;
+    }
+
+    .title{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /* 
+    --------------Informations----------------------
+    
+    
+    */
+
+    .titrePage{
+        display : flex;
+        justify-content: center;
+
+    }
+    #TitrePageAccueil{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        align-items: center;
+        color: #2C395C;
+        text-shadow:  1px 1px 1px rgb(167, 167, 167);
+        font-size:xx-large ;
+    }
+/* ----------------Blocks pays----------------------- */
+.container {
+    display: flex;
+    height : 290px;
+    width : 100%;
+    background: rgb(44,57,92);
+    background: linear-gradient(247deg,
+     rgba(44,57,92,1) 24%,
+     rgba(9,141,172,1) 56%,
+     rgba(0,88,106,0.72) 83%);
+    justify-content: center;
+}
+
+.titrePays{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    position: absolute;
+    background-color: #5C3232;
+    opacity: 65%;
+    color:rgb(255, 255, 255);
+    border-radius: 15px;
+    width: auto;
+    padding: auto 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.blockPays {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 10px 20px;
+    height: 300px;
+    width: auto;
+}
+
+.imgBlock{
+    justify-content: space-around;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.imgBlock:hover {
+    opacity: 0.8;
+}
+.titrePays{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+/* --------------------blocks activité/ transports/ logements----------------------- */
+  .blocks {
+    display: flex;
+    flex-direction: row;
+    height: 260px;
+    justify-content: center;
+    margin: 20px auto 300px auto;
+    align-content: center;
+  }
+
+  .blockinet {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 500px;
+    width: 250px;
+    margin: 20px 30px 20px 20px;
+    box-shadow: 2px 2px 2px 2px rgb(156, 156, 156);
+    border-radius: 10px;
+    padding : auto 5px auto 5px;
+    background-color: rgb(243, 243, 243);
+    padding : auto 20px;
+  }
+
+  .titreCarte{
+    text-align: center;
+    color: #2C395C;
+  }
+
+  .imgCarte{
+      width : 100%;
+      border-radius: 2px solid grey;    
+  }
+
+  .buttonCarte{
+      display: flex;
+    background-color: #0C9BE3;
+    border-radius: 20px;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    padding-top: 10px;
+    border : none;
+    justify-content: center;
+    box-shadow: 1px 1px 1px grey;
+    text-shadow: 1px 1px 1px grey;
+  }
+  .buttonCarte:hover{
+    Opacity: 0.8;
+  }
+
+  .paragCarte {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      color: #2C395C;
+      text-shadow: 1px 1px 1px rgb(197, 196, 196); 
+   }
+  /*-------------------A propos------------------------ */
+.articlePPrincipale{
+    display: block;
+    justify-content: center;
+    height : auto;
+    width : auto;
+    background-color: rgb(214, 214, 214);
+    background: linear-gradient(247deg,
+     rgba(44,57,92,1) 24%,
+     rgba(9,141,172,1) 56%,
+     rgba(0,88,106,0.72) 83%);
+}
+
+.titreArticleP {
+    display: flex;
+    padding-top: 10px auto;
+    border-bottom:none;
+    justify-content: center;
+    margin: 0px auto;
+    padding-top: 20px;
+    color:rgb(216, 216, 216);
+    font-size: x-large;
+    text-shadow: 1px 1px 1px rgb(214, 214, 214);
+}
+
+.blockArticle {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.articleContainer{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 20px;
+    width : 200px;
+    height: 60%; 
+}
+
+.imgArticle{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.titreArticle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+    color:rgb(153, 212, 216);
+}
+
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    margin: 5px auto;
+    color: white;
+}
+
+.btnArticle{
+    justify-content: center;
+    align-items: center;
+    margin : 20px auto;
+    display: flex;
+    color: white;
+    background-color:#2C395C;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    border : none;
+    box-shadow: 1px 1px 1px rgb(77, 77, 77);
+    text-shadow: 1px 1px 1px rgb(167, 167, 167); 
+}
+
+.btnArticle:hover{
+    opacity: 0.8;
+}
+
+/* ------------------reservation---------------- */
+  .panelPic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px auto 20px auto;
+    height: 250px;
+    margin-top: 0px;
+  }
+
+  .imgReservation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    height : 180px;
+    border-radius: 20px;
+    margin: 10px auto;
+    align-items: center;
+  }
+  
+  .imgClique{
+      display: flex;
+      width: 50px;
+  }
+  
+  .btnReservation {
+      display: flex;
+    justify-self: center;
+    margin : 20px auto;
+    display: flex;
+    background-color:#2C395C;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    padding-top: 10px;
+    border : none;
+    box-shadow: 1px 1px 1px grey;
+    text-shadow: 1px 1px 1px grey;
+  }
+  
+  .btnReservation a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .btnReservation:hover{
+      opacity: 0.8;
+  }
+/* ---------------footer----------------- */
+
+  #footer {
+    display: flex;
+    padding: 0;
+    background: rgb(44,57,92);
+background: linear-gradient(90deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, rgba(0,88,106,0.72) 83%);
+    color: white;
+    width: 100%;
+  }
+
+  #footer li {
+    flex-direction: column;
+    list-style-type: none;
+    display: block;
+    color: white;
+    text-shadow:  1px 1px 1px black ;
+  }
+  
+  #footer li a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 30px 0 30px;
+  }
+  #footer li a:hover {
+      color:rgb(0, 176, 189)
+  }
+  
+  
+  
+=======
 @media screen and (max-width: 599px){
 /*-------------------Disparition des classes Desktop---------------------*/
 
@@ -386,3 +775,4 @@
     color: rgb(255, 255, 255);
   }
 }
+>>>>>>> main

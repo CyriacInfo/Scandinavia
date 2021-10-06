@@ -1,0 +1,195 @@
+   /* ------------------Nav------------------  */
+   
+   
+   body{
+        font-family: 'Coolvetica-Regular', arial;
+        width: 101vw;
+        overflow-x : hidden;
+        margin: 0 0;
+        background-color: transparent;
+        
+    
+    }
+    
+    .header {
+    }
+    
+    #navigator {
+        display: flex;
+        padding: 0;
+        background: linear-gradient(90deg,
+         rgba(44,57,92,1) 24%,
+         rgba(9,141,172,1) 56%,
+         rgba(0,88,106,0.72) 83%);
+        color: white;
+        width: 100%;
+        z-index: 999;
+        position: fixed;
+    }
+    .logo {
+        max-width: 50px;
+    }
+    .menu{
+        display: flex;
+        width: 100%;
+        vertical-align: center;
+        position: absolute;
+        margin-bottom: 20px;
+    }
+    #navigator li {
+        flex-direction: column;
+        list-style-type: none;
+        display: block;
+        color: white;
+        text-shadow:  1px 1px 1px black ;
+        
+        }
+    
+    #navigator li a {
+        color: white;
+        text-decoration: none;
+        margin: 0px 30px 0 30px;
+        
+    }
+    #navigator li :hover {
+    color: rgb(80, 80, 80);
+    }
+    
+    
+    
+    /* page contact */
+
+    #titre{
+        display: flex;
+        justify-self: center;
+        padding-top: 20px;
+    }
+    h1{
+        margin : 5vh auto 15px auto;
+        flex-direction: row;
+        width: 300px;
+        text-align: center;
+        align-items: center;
+        color : #2C395C;
+        text-shadow:  2px 2px 2px #2C395C;
+        padding-top: 40px;
+    }
+
+    .MessageContact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        
+    }
+
+    #Nom{
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0px auto 10px auto;
+    }
+    #labelNom {
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0px auto 10px auto;
+    
+    }
+
+    #Prenom{
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+       margin: 0px auto 10px auto;
+    }
+
+    #mail{
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0px auto 10px auto;
+    }
+
+    #MessageContact{
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0px auto 10px auto;
+    }
+
+    .valNewsLetter{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    }
+
+    #newsLetter {
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #labelNewsLetter{
+        color: #2C395C;
+    }
+
+    .formContact {
+        margin-bottom: 30px;
+    }
+    
+    .label {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
+
+    .buttonContact {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .styleButton{
+        background: rgb(44,57,92);
+        background: linear-gradient(247deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, rgba(0,88,106,0.72) 83%);        border-radius: 25px;
+        width: 150px;
+        height: 50px;
+        border : none;
+        font-size: x-large ;
+        color:rgb(167, 167, 167)
+    }
+
+    .styleButton :hover {
+        color: rgb(255, 255, 255);
+    }
+
+    /* ------------------footer------------------- */
+
+    #footer {
+        display: flex;
+        padding: 0;
+        background: rgb(44,57,92);
+    background: linear-gradient(90deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, rgba(0,88,106,0.72) 83%);
+        color: white;
+        width: 100%;
+      }
+    
+      #footer li {
+        flex-direction: column;
+        list-style-type: none;
+        display: block;
+        color: white;
+        text-shadow:  1px 1px 1px black ;
+      }
+      
+      #footer li a {
+        color: white;
+        text-decoration: none;
+        margin: 0px 30px 0 30px;
+      }
+      #footer li a:hover {
+          color:rgb(0, 176, 189)
+      }
+      
