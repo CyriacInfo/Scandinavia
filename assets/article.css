@@ -1,28 +1,82 @@
-.cardGen {
-    border: 1px solid black;
+.titrePageAccueil {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  align-items: center;
+  color: #2c395c;
+  text-shadow: 1px 1px 1px rgb(167, 167, 167);
+  font-size: xx-large;
+  padding-top: 50px;
+}
+
+@media only screen and (min-width: 600px) {
+  /*Panel des articles global*/
+  .cardGen {
+    display: flex;
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 2px 2px rgb(156 156 156);
+    max-height: 365.906px;
   }
-  
+  /* Permet de faire  un article sur 2*/
   .artPair {
     flex-direction: row-reverse;
     justify-content: space-around;
   }
-  
+
   .artImpair {
     justify-content: space-around;
   }
+
   .finlandeStyle {
-    display: flex;
+    background-color: #00b1dd18;
   }
   .suedeStyle {
-    display: flex;
+    background-color: #008cdd4d;
   }
   .norvegeStyle {
-    display: flex;
+    background-color: #00dda618;
   }
   .islandeStyle {
+    background-color: #2900dd18;
+  }
+
+  .articleImg {
+    object-fit: cover;
+    padding: 30px;
+    width: 200px;
+    height: 300px;
+  }
+
+  .artTitleStyle {
+    margin-top: 30px;
+    color: #2c395c;
+    text-shadow: 1px 1px 1px rgb(167 167 167);
+  }
+  .articleCardCenter {
+    width: 50%;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+
+  .artCardButton {
+    display: flex;
+    background-color: #0C9BE3;
+    border-radius: 20px;
+    color: white;
+    width: 75px;
+    height: 30px;
+    margin: auto;
+    padding-top: 8px;
+    border : none;
+    justify-content: center;
+    box-shadow: 1px 1px 1px grey;
+    text-shadow: 1px 1px 1px grey;
+  }
+
+  .articleCardRight {
     display: flex;
   }
-  
-  .artNone {
-    display: none;
-  }
+}
