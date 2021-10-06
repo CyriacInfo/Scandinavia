@@ -46,7 +46,7 @@ function carousel() {
   }
   
   slides[tabIndex - 1].style.display = "block";
-  setTimeout(carousel, 2000); 
+  setTimeout(carousel, 3000); 
   // 2000 = 2 sec;
 };
 
