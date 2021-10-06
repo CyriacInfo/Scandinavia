@@ -27,7 +27,7 @@ paysIdBtnSue.addEventListener('click', function(){
     sueIdPanel.classList.add('paysBlock');
     sueIdPanel.classList.remove('paysNone');
     finIdPanel.classList.add('paysNone');
-    sueIdPanel.classList.remove('paysBlock');
+    finIdPanel.classList.remove('paysBlock');
     norIdPanel.classList.add('paysNone');
     norIdPanel.classList.remove('paysBlock');
     islIdPanel.classList.add('paysNone');
