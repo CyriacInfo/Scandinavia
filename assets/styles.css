@@ -1,77 +1,70 @@
-@media screen and (max-width: 599px){
-/*-------------------Disparition des classes Desktop---------------------*/
+/*------------------ Barre nav -----------------*/
+body{
+    font-family: 'Coolvetica-Regular', arial;
+    width: 101vw;
+    overflow-x : hidden;
+    margin: 0 0;
+    background-color: transparent;
+    
 
 }
 
-
-@media screen and (min-width: 600px) {
-/*---------------Disparition des classes mobileFirst-----------------*/
-
-  body {
-    font-family: "Coolvetica-Regular", arial;
-    width: 101vw;
-    overflow-x: hidden;
-    margin: 0 0;
-    background-color: transparent;
-  }
-
-  #navigator {
+#navigator {
     display: flex;
     padding: 0;
-    background: linear-gradient(
-      90deg,
-      rgba(44, 57, 92, 1) 24%,
-      rgba(9, 141, 172, 1) 56%,
-      rgba(0, 88, 106, 0.72) 83%
-    );
+    background: linear-gradient(90deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, rgba(0,88,106,0.72) 83%);
     color: white;
     width: 100%;
-  }
-  .logo {
+    
+}
+.logo {
     max-width: 50px;
-  }
-  .menu {
+}
+.menu{
     display: flex;
     width: 100%;
     vertical-align: center;
     position: absolute;
     margin-bottom: 20px;
-  }
-  #navigator li {
+}
+#navigator li {
     flex-direction: column;
     list-style-type: none;
     display: block;
     color: white;
-    text-shadow: 1px 1px 1px black;
-  }
+    text-shadow:  1px 1px 1px black ;
+    
+    }
 
-  #navigator li a {
+#navigator li a {
     color: white;
     text-decoration: none;
     margin: 0px 30px 0 30px;
-  }
-  #navigator li :hover {
-    color: rgb(80, 80, 80);
-  }
+    
+}
+#navigator li :hover {
+color: rgb(80, 80, 80);
+}
 
-  /* --------------------haut de page----------------------- */
+/* --------------------haut de page----------------------- */
 
-  .slider {
-    width: 100%;
-    max-height: 70vh;
-    object-fit: cover;
-  }
 
-  .carousel {
+.slider {
+width: 100%;
+max-height: 70vh;
+object-fit: cover;
+}
+
+.carousel {
     display: block;
     padding: 0;
     margin: 0;
-  }
+}
 
-  .titreScandinavia {
+.titreScandinavia{
     display: flex;
     width: 200px;
-    background-color: #5c3232;
+    background-color: #5C3232;
     opacity: 65%;
     padding: 5px;
     padding-left: 15px;
@@ -79,65 +72,67 @@
     position: absolute;
     color: white;
     border-radius: 15px;
-  }
+    }
 
-  .title {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    .title{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-  /* 
+    }
+
+    /* 
     --------------Informations----------------------
     
     
     */
 
-  .titrePage {
+    .titrePage{
+        display : flex;
+        justify-content: center;
+
+    }
+    #TitrePageAccueil{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        align-items: center;
+        color: #2C395C;
+        text-shadow:  1px 1px 1px rgb(167, 167, 167);
+        font-size:xx-large ;
+    }
+/* ----------------Blocks pays----------------------- */
+.container {
     display: flex;
-    justify-content: center;
-  }
-  #TitrePageAccueil {
-    display: flex;
-    justify-content: center;
-    width: auto;
-    align-items: center;
-    color: #2c395c;
-    text-shadow: 1px 1px 1px rgb(167, 167, 167);
-    font-size: xx-large;
-  }
-  /* ----------------Blocks pays----------------------- */
-  .container {
-    display: flex;
-    height: 290px;
-    width: 100%;
-    background: rgb(44, 57, 92);
-    background: linear-gradient(
-      247deg,
-      rgba(44, 57, 92, 1) 24%,
-      rgba(9, 141, 172, 1) 56%,
-      rgba(0, 88, 106, 0.72) 83%
-    );
+    height : 290px;
+    width : 100%;
+    background: rgb(44,57,92);
+    background: linear-gradient(247deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, rgba(0,88,106,0.72) 83%);
 
     justify-content: center;
-  }
+}
 
-  .blockPays {
+.blockPays {
     display: flex;
     justify-content: center;
     padding: 20px 20px 10px 20px;
     height: 300px;
-    width: 200px;
-  }
+    width : 200px;
+   
+}
 
-  .imgBlock {
+.imgBlock{
     justify-content: space-around;
     height: 250px;
     width: 100%;
     object-fit: cover;
-  }
-  /* --------------------blocks activité/ transports/ logements----------------------- */
+}
+/* --------------------blocks activité/ transports/ logements----------------------- */
+    
+  
+ 
+ 
 
   .blocks {
     display: flex;
@@ -157,45 +152,48 @@
     margin: 20px 30px 20px 20px;
     box-shadow: 2px 2px 2px 2px rgb(156, 156, 156);
     border-radius: 10px;
-    padding: auto 5px auto 5px;
+    padding : auto 5px auto 5px;
     background-color: rgb(243, 243, 243);
-    padding: auto 20px;
+    padding : auto 20px;
   }
 
-  .titreCarte {
+  .titreCarte{
     text-align: center;
-    color: #2c395c;
+    color: #2C395C;
   }
 
-  .imgCarte {
-    width: 100%;
-    border-radius: 2px solid grey;
+  .imgCarte{
+      width : 100%;
+      border-radius: 2px solid grey;
+      
+      
   }
 
-  .buttonCarte {
-    display: flex;
-    background-color: #0c9be3;
+  .buttonCarte{
+      display: flex;
+    background-color: #0C9BE3;
     border-radius: 20px;
     color: white;
     width: 150px;
     height: 30px;
     margin: auto;
     padding-top: 10px;
-    border: none;
+    border : none;
     justify-content: center;
     box-shadow: 1px 1px 1px grey;
     text-shadow: 1px 1px 1px grey;
   }
 
   .paragCarte {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    color: #2c395c;
-    text-shadow: 1px 1px 1px rgb(197, 196, 196);
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      color: #2C395C;
+      text-shadow: 1px 1px 1px rgb(197, 196, 196); 
+      
   }
 
-  /* ------------------reservation---------------- */
+/* ------------------reservation---------------- */
   .panelPic {
     display: flex;
     justify-content: center;
@@ -204,56 +202,46 @@
     align-items: center;
     padding: 20px auto 20px auto;
     height: 250px;
-    background: rgb(44, 57, 92);
-    background: linear-gradient(
-      247deg,
-      rgba(44, 57, 92, 1) 24%,
-      rgba(9, 141, 172, 1) 56%,
-      rgba(0, 88, 106, 0.72) 83%
-    );
+    background: rgb(44,57,92);
+    background: linear-gradient(247deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, rgba(0,88,106,0.72) 83%);
     margin-top: 20px;
   }
 
   .imgReservation {
     justify-content: center;
     width: auto;
-    height: 180px;
+    height : 180px;
     border-radius: 20px;
     margin: 10px auto;
     align-items: center;
   }
-
+  
   .btnReservation {
-    display: flex;
+      display: flex;
     justify-self: center;
-    margin: 20px auto;
+    margin : 20px auto;
     display: flex;
-    background-color: #2c395c;
+    background-color:#2C395C;
     border-radius: 20px;
     width: 150px;
     height: 50px;
     padding-top: 10px;
-    border: none;
+    border : none;
     box-shadow: 1px 1px 1px grey;
     text-shadow: 1px 1px 1px grey;
   }
-
+  
   .btnReservation a {
     text-decoration: none;
     color: white;
   }
-  /* ---------------footer----------------- */
+/* ---------------footer----------------- */
 
   #footer {
     display: flex;
     padding: 0;
-    background: rgb(44, 57, 92);
-    background: linear-gradient(
-      90deg,
-      rgba(44, 57, 92, 1) 24%,
-      rgba(9, 141, 172, 1) 56%,
-      rgba(0, 88, 106, 0.72) 83%
-    );
+    background: rgb(44,57,92);
+background: linear-gradient(90deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, rgba(0,88,106,0.72) 83%);
     color: white;
     width: 100%;
   }
@@ -263,126 +251,123 @@
     list-style-type: none;
     display: block;
     color: white;
-    text-shadow: 1px 1px 1px black;
+    text-shadow:  1px 1px 1px black ;
   }
-
+  
   #footer li a {
     color: white;
     text-decoration: none;
     margin: 0px 30px 0 30px;
   }
   #footer li a:hover {
-    color: rgb(0, 176, 189);
+      color:rgb(0, 176, 189)
   }
+  
+  
+  
+    /* page contact */
 
-  /* page contact */
+    #titre{
+        display: flex;
+        justify-self: center;
+        padding-top: 20px;
+    }
+    h1{
+        margin : 5vh auto 15px auto;
+        flex-direction: row;
+        width: 300px;
+        text-align: center;
+        align-items: center;
+        color : #2C395C;
+        text-shadow:  2px 2px 2px #2C395C;
+    }
 
-  #titre {
-    display: flex;
-    justify-self: center;
-    padding-top: 20px;
-  }
-  h1 {
-    margin: 5vh auto 15px auto;
-    flex-direction: row;
-    width: 300px;
-    text-align: center;
-    align-items: center;
-    color: #2c395c;
-    text-shadow: 2px 2px 2px #2c395c;
-  }
+    .MessageContact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        
+    }
 
-  .MessageContact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-  }
+    #Nom{
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0px auto 10px auto;
+    }
+    #labelNom {
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0px auto 10px auto;
+    
+    }
 
-  #Nom {
-    display: block;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0px auto 10px auto;
-  }
-  #labelNom {
-    display: block;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0px auto 10px auto;
-  }
+    #Prenom{
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0px auto 10px auto;
+    }
 
-  #Prenom {
-    display: block;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0px auto 10px auto;
-  }
+    #mail{
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0px auto 10px auto;
+    }
 
-  #mail {
-    display: block;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0px auto 10px auto;
-  }
+    #MessageContact{
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0px auto 10px auto;
+    }
 
-  #MessageContact {
-    display: block;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0px auto 10px auto;
-  }
-
-  .valNewsLetter {
+    .valNewsLetter{
     display: flex;
     justify-content: center;
     margin-top: 20px;
-  }
+    }
 
-  #newsLetter {
-    display: block;
-    flex-direction: row;
-    justify-content: center;
-  }
+    #newsLetter {
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+    }
 
-  #labelNewsLetter {
-    color: #2c395c;
-  }
+    #labelNewsLetter{
+        color: #2C395C;
+    }
 
-  .formContact {
-    margin-bottom: 30px;
-  }
+    .formContact {
+        margin-bottom: 30px;
+    }
+    
+    .label {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
 
-  .label {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    padding-bottom: 5px;
-  }
+    .buttonContact {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+    }
 
-  .buttonContact {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-  }
+    .styleButton{
+        background: rgb(44,57,92);
+        background: linear-gradient(247deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, rgba(0,88,106,0.72) 83%);        border-radius: 25px;
+        width: 150px;
+        height: 50px;
+        border : none;
+        font-size: x-large ;
+        color:rgb(167, 167, 167)
+    }
 
-  .styleButton {
-    background: rgb(44, 57, 92);
-    background: linear-gradient(
-      247deg,
-      rgba(44, 57, 92, 1) 24%,
-      rgba(9, 141, 172, 1) 56%,
-      rgba(0, 88, 106, 0.72) 83%
-    );
-    border-radius: 25px;
-    width: 150px;
-    height: 50px;
-    border: none;
-    font-size: x-large;
-    color: rgb(167, 167, 167);
-  }
-
-  .styleButton :hover {
-    color: rgb(255, 255, 255);
-  }
-}
+    .styleButton :hover {
+        color: rgb(255, 255, 255);
+    }
