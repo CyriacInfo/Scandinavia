@@ -1,9 +1,0 @@
-#navigator {
-    display: flex;
-    
-};
-
-.menu {
-    display: flex;
-    flex-direction : row;
-}
