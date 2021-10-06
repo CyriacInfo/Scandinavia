@@ -1,9 +1,6 @@
 const country = [
     {
         name: "Finlande",
-        travels: "",
-        activity: "",
-        lodging: "",
         article: [
           { picture: "https://picsum.photos/200/300", title: "0", paragraph: "lorem", lien: "" },
           { picture: "https://picsum.photos/200/300", title: "1", paragraph: "lorem", lien: "" },
