@@ -1,0 +1,142 @@
+body{
+    font-family: 'Coolvetica-Regular', arial;
+    width: 101vw;
+    overflow-x : hidden;
+    margin: 0 0;
+    background: rgb(44,57,92);
+    background: linear-gradient(247deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, rgba(0,88,106,0.72) 83%);
+
+    
+}
+
+#navigator {
+    display: flex;
+    padding: 0;
+    background: rgb(44,57,92);
+    background: linear-gradient(90deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, rgba(0,88,106,0.72) 83%);
+    color: white;
+    width: 100%;
+}
+.logo {
+    max-width: 50px;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    vertical-align: center;
+    position: absolute;
+    margin-bottom: 20px;
+}
+#navigator li {
+    flex-direction: column;
+    list-style-type: none;
+    display: block;
+    color: white;
+    text-shadow:  1px 1px 1px black ;
+    
+    }
+
+#navigator li a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 30px 0 30px;
+    
+}
+#navigator li :hover {
+color: rgb(80, 80, 80);
+}
+
+    h1{
+        margin : 5vh auto 15px auto;
+        flex-direction: row;
+        width: 300px;
+        text-align: center;
+        align-items: center;
+        color:white;
+        text-shadow:  2px 2px 2px #2C395C;
+    }
+    h2{
+        margin : 5vh auto 15px auto;
+       
+        width: 300px;
+        text-align: center;
+        align-items: center;
+        color:white;
+        text-shadow:  2px 2px 2px #2C395C;
+    }
+    h3{
+        margin : 5vh auto 15px auto;
+        flex-direction: row;
+        width: 300px;
+        text-align: center;
+        align-items: center;
+        color:rgb(0, 176, 189);
+        text-shadow:  2px 2px 2px #2C395C;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       background-color: white;
+    }
+    
+    .faq {
+        display: inline-block;
+        flex-direction: row;
+        justify-content: center;
+        height: 500px;
+        width: 330px;
+        margin: 20px 30px 20px 20px;
+        box-shadow: 2px 2px 2px 2px rgb(156, 156, 156);
+        border-radius: 10px;
+        padding : auto 5px auto 5px;
+        background-color:white;
+        
+        padding : auto 20px;
+      }
+
+      h4{
+        margin : 5vh auto 15px auto;
+        flex-direction: row;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        color:white;
+        text-shadow:  2px 2px 2px #2C395C;
+      }
+
+      .faq >p{
+          padding: 10px;
+      }
+/* ---------------footer----------------- */
+
+#footer {
+    padding: 0;
+    background: rgb(44,57,92);
+background: linear-gradient(90deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, rgba(0,88,106,0.72) 83%);
+    color: white;
+    width: 100%;
+    vertical-align: center;
+    position: absolute;
+    margin-bottom: 20px;
+
+  }
+
+  #footer li {
+    flex-direction: column;
+    list-style-type: none;
+    display: block;
+    color: white;
+    text-shadow:  1px 1px 1px black ;
+  }
+  
+  #footer li a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 30px 0 30px;
+  }
+  #footer li a:hover {
+      color:rgb(0, 176, 189)
+  }
+  
+  

@@ -9,24 +9,20 @@ body{
 
 }
 
-.header {
-}
 
 #navigator {
     display: flex;
     padding: 0;
-    background: linear-gradient(90deg,
-     rgba(44,57,92,1) 24%,
-     rgba(9,141,172,1) 56%,
-     rgba(0,88,106,0.72) 83%);
+    background: linear-gradient(90deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, rgba(0,88,106,0.72) 83%);
     color: white;
     width: 100%;
-    z-index: 999;
-    position: fixed;
-}
+    top: 0px;
+    }
+
 .logo {
     max-width: 50px;
 }
+
 .menu{
     display: flex;
     width: 100%;
@@ -34,14 +30,14 @@ body{
     position: absolute;
     margin-bottom: 20px;
 }
+
 #navigator li {
     flex-direction: column;
     list-style-type: none;
     display: block;
     color: white;
     text-shadow:  1px 1px 1px black ;
-    
-    }
+     }
 
 #navigator li a {
     color: white;
@@ -60,7 +56,6 @@ color: rgb(80, 80, 80);
 width: 100%;
 max-height: 70vh;
 object-fit: cover;
-margin-top: 54px ;
 }
 
 .carousel {
@@ -93,7 +88,6 @@ margin-top: 54px ;
     /* 
     --------------Informations----------------------
     
-    
     */
 
     .titrePage{
@@ -116,25 +110,9 @@ margin-top: 54px ;
     height : 290px;
     width : 100%;
     background: rgb(44,57,92);
-    background: linear-gradient(247deg,
-     rgba(44,57,92,1) 24%,
-     rgba(9,141,172,1) 56%,
-     rgba(0,88,106,0.72) 83%);
-    justify-content: center;
-}
+    background: linear-gradient(247deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, rgba(0,88,106,0.72) 83%);
 
-.titrePays{
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    position: absolute;
-    background-color: #5C3232;
-    opacity: 65%;
-    color:rgb(255, 255, 255);
-    border-radius: 15px;
-    width: auto;
-    padding: auto 10px;
-    text-shadow: 2px 2px 2px black;
+    justify-content: center;
 }
 
 .blockPays {
@@ -142,8 +120,22 @@ margin-top: 54px ;
     justify-content: center;
     padding: 20px 20px 10px 20px;
     height: 300px;
-    width: auto;
+    width : 200px;
+   
 }
+
+.titrePays {
+    display: flex;
+    flex-direction: center;
+    position: absolute;
+    background-color: #5C3232;
+    opacity: 65%;
+    margin: 20px auto auto auto;
+    color: white;
+    border-radius: 15px;
+
+}
+
 
 .imgBlock{
     justify-content: space-around;
@@ -153,14 +145,14 @@ margin-top: 54px ;
 }
 
 .imgBlock:hover {
-    opacity: 0.8;
-}
-.titrePays{
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    opacity: 80%;
 }
 /* --------------------blocks activité/ transports/ logements----------------------- */
+    
+  
+ 
+ 
+
   .blocks {
     display: flex;
     flex-direction: row;
@@ -191,7 +183,9 @@ margin-top: 54px ;
 
   .imgCarte{
       width : 100%;
-      border-radius: 2px solid grey;    
+      border-radius: 2px solid grey;
+      
+      
   }
 
   .buttonCarte{
@@ -208,9 +202,10 @@ margin-top: 54px ;
     box-shadow: 1px 1px 1px grey;
     text-shadow: 1px 1px 1px grey;
   }
-  .buttonCarte:hover{
-    Opacity: 0.8;
-  }
+
+  .buttonCarte:hover {
+    opacity: 0.8;
+}
 
   .paragCarte {
       display: flex;
@@ -306,30 +301,21 @@ margin-top: 54px ;
 /* ------------------reservation---------------- */
   .panelPic {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     width: auto;
     flex-direction: column;
     align-items: center;
-    padding: 20px auto 20px auto;
+    padding: auto;
     height: 250px;
-    margin-top: 0px;
   }
 
   .imgReservation {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     width: auto;
     height : 180px;
     border-radius: 20px;
     margin: 10px auto;
     align-items: center;
-  }
-  
-  .imgClique{
-      display: flex;
-      width: 50px;
   }
   
   .btnReservation {
@@ -346,14 +332,14 @@ margin-top: 54px ;
     box-shadow: 1px 1px 1px grey;
     text-shadow: 1px 1px 1px grey;
   }
+
+  .btnReservation:hover{
+    opacity: 0.8;
+}
   
   .btnReservation a {
     text-decoration: none;
     color: white;
-  }
-
-  .btnReservation:hover{
-      opacity: 0.8;
   }
 /* ---------------footer----------------- */
 
