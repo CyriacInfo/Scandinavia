@@ -54,7 +54,7 @@ color: rgb(80, 80, 80);
     h1  {
         display: flex;
         justify-content: center;
-        margin : 20px auto 20px auto;
+        margin : 50px auto 20px auto;
         width: 300px;
         text-align: center;
         align-items: center;
