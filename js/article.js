@@ -1,5 +1,5 @@
 // Importation de mon objet pour avoir acces à toutes les données de son contenu.
-import country from "./country.js";
+import country from './country.js';
 
 //----------------------------------------Génération article----------------------------------------
 

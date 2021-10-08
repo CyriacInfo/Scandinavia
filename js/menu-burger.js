@@ -6,4 +6,3 @@ var nav = document.querySelector('#navigatorMobile');
     nav.classList.toggle('openNav');
   menuBtn.classList.toggle('closeNav');
 });
-
