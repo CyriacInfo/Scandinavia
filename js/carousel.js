@@ -23,5 +23,14 @@ function carousel() {
   // 2000 = 2 sec;
 }
 
+var menuBtn = document.querySelector('#menuBtn');
+var nav = document.querySelector('#navigatorMobile');
+
+// show or hide
+  menuBtn.addEventListener('click',function(){
+    nav.classList.toggle('openNav');
+  menuBtn.classList.toggle('closeNav');
+});
+
 //Invocation de la fonction pour qu'elle se lance des que la page est chargée
 carousel();
