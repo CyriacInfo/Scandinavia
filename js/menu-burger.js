@@ -6,4 +6,3 @@ menuBtn.addEventListener('click',function(){
     nav.classList.toggle('openNav');
   menuBtn.classList.toggle('closeNav');
 });
-

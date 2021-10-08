@@ -67,3 +67,4 @@ paysIdBtnReset.addEventListener('click', function(){
     islIdPanel.classList.add('paysBlock');
     islIdPanel.classList.remove('paysNone');
 })
+
