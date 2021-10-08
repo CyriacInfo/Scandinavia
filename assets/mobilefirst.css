@@ -1,0 +1,145 @@
+@media screen and (max-width: 599px){
+  /*-------------------Disparition des classes Desktop---------------------*/
+  body {
+    font-family: "Coolvetica-Regular", arial;
+    overflow-x: hidden;
+    margin: 0 0;
+    background-color: transparent;
+  }
+  
+  #navigator {
+    display: none;
+    padding: 0;
+    background: linear-gradient(
+      90deg,
+      rgba(44, 57, 92, 1) 24%,
+      rgba(9, 141, 172, 1) 56%,
+      rgba(0, 88, 106, 0.72) 83%
+    );
+    color: white;
+    width: 100%;
+  }
+  .logo {
+    max-width: 50px;
+  }
+  
+  /* on ajoute le menu burger pour une meilleure expérience sur portable */
+  
+  .menu {
+    display: none;
+  }
+  .headerMobile {
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: #2c395c;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .header-title {
+  
+    margin: 0px 10px 0px 0px;
+    line-height: 50px;
+    font-size: 22px;
+    color: white;
+  }
+  
+  ul,
+  li {
+    display: block;
+  }
+  li {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+  }
+  
+  li > a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navigatorMobileUl>li>a:active {
+    color: goldenrod;
+  }
+  
+  #menuBtn {
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background: #fff;
+    color: #000;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50px;
+  }
+  
+  #menuBtn::after {
+    content: "×";
+  }
+  #menuBtn {
+    animation-name: menuBtn;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes menuBtn {
+    0% {
+      transform: translate(0px, 0px) scale(0.9);
+    }
+    50% {
+      transform: translate(0px, 0px) rotate(180deg) scale(0.8);
+    }
+    100% {
+      transform: translate(0px, 0px) rotate(0deg) scale(0.9);
+    }
+  }
+  #menuBtn.closeNav {
+    color: white;
+    background: #2c395c;;
+  }
+  #menuBtn.closeNav::after {
+    content: "≡";
+  }
+  
+  #navigatorMobile {
+    background-color: #2c395c;
+    border-bottom: 1px solid #67dada;
+    position: fixed;
+    transform: translateY(-400px);
+    z-index: 9999999999;
+    position: fixed;
+  }
+  #navigatorMobile.openNav {
+    transform: translateY(50px);
+    background-color: black;
+  }
+  #navigator li {
+    flex-direction: column;
+    list-style-type: none;
+    display: block;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  #navigator li a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 30px 0 30px;
+  }
+  #navigator li :hover {
+    color: rgb(80, 80, 80);
+  }
+  .navigatorMobileUl {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+  }
+  
+}

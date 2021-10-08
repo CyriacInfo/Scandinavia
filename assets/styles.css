@@ -1,3 +1,6 @@
+
+  /*-------------------Disparition des classes Desktop---------------------*/
+  
 /*------------------ Barre nav -----------------*/
 body{
     font-family: 'Coolvetica-Regular', arial;
@@ -5,10 +8,15 @@ body{
     overflow-x : hidden;
     margin: 0 0;
     background-color: transparent;
-    
-
 }
 
+.navigatorMobileUl{
+  display: none;
+}
+
+.header-title{
+  display: none;
+}
 
 
 #navigator {
@@ -18,7 +26,13 @@ body{
     color: white;
     width: 100%;
     top: 0px;
+    position: fixed;
+    z-index: 666;
     }
+
+.headertitle {
+  display: none;
+}
 
 .logo {
     max-width: 50px;
@@ -369,6 +383,5 @@ background: linear-gradient(90deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, 
   #footer li a:hover {
       color:rgb(0, 176, 189)
   }
-  
   
   
