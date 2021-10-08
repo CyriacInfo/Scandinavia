@@ -9,8 +9,67 @@
   padding-top: 50px;
 }
 
+.cardGen {
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  box-shadow: 2px 2px 2px 2px rgb(156 156 156);
+}
+.articleImg {
+  object-fit: cover;
+  padding: 30px;
+  width: 300px;
+  height: 150px;
+}
+
+
+
+.articleCardLeft {
+  display: flex;
+  justify-content: center;
+}
+.articleCardCenter {
+
+  overflow: hidden;
+  margin: 0px 30px 20px  30px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.articleCardRight {
+  display: flex;
+  justify-content: center;
+}
+
+.finlandeStyle {
+  background-color: #00b1dd18;
+}
+.suedeStyle {
+  background-color: #008cdd4d;
+}
+.norvegeStyle {
+  background-color: #00dda618;
+}
+.islandeStyle {
+  background-color: #2900dd18;
+}
+
+
+.artCardButton {
+  background-color: #0c9be3;
+  border-radius: 20px;
+  color: white;
+  width: 75px;
+  height: 30px;
+  border: none;
+  justify-content: center;
+  box-shadow: 1px 1px 1px grey;
+  text-shadow: 1px 1px 1px grey;
+}
+
 @media only screen and (min-width: 600px) {
   /*Panel des articles global*/
+
   .cardGen {
     display: flex;
     border-radius: 10px;
@@ -63,14 +122,14 @@
 
   .artCardButton {
     display: flex;
-    background-color: #0C9BE3;
+    background-color: #0c9be3;
     border-radius: 20px;
     color: white;
     width: 75px;
     height: 30px;
     margin: auto;
     padding-top: 8px;
-    border : none;
+    border: none;
     justify-content: center;
     box-shadow: 1px 1px 1px grey;
     text-shadow: 1px 1px 1px grey;
@@ -79,5 +138,4 @@
   .articleCardRight {
     display: flex;
   }
-
 }

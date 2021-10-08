@@ -1,12 +1,97 @@
+
 .paysBlock {
-  display: block;
+  
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  margin: 0px 0px 10px 10px;
 }
 
 .paysNone {
   display: none;
 }
 h2 {
-  color: blue;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  align-items: center;
+  color: #2c395c;
+  text-shadow: 1px 1px 1px rgb(167, 167, 167);
+  font-size: xx-large;
+}
+#filterCountry {
+  padding-top: 5px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+#btnPays1,
+#btnPays2,
+#btnPays3,
+#btnPays4,
+#btnPaysRes {
+  border-radius: 20px;
+  background-color: #0c9be3;
+  color: white;
+  width: 75px;
+  height: 30px;
+  margin: auto;
+  padding-top: 4px;
+  border: none;
+  justify-content: center;
+  box-shadow: 1px 1px 1px grey;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.contentFinlande,
+.contentSuede,
+.contentNorvege,
+.contentIslande {
+  padding: 10px 10px 20px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 2px 2px rgb(156 156 156);
+}
+
+.contentFinlande {
+  background-color: #00b1dd18;
+}
+
+.contentSuede {
+  background-color: #008cdd4d;
+}
+.contentNorvege {
+  background-color: #00dda618;
+}
+
+.contentIslande {
+  background-color: #2900dd18;
+}
+
+#activityFinlande,
+#travelFinlande,
+#activitySuede,
+#travelSuede,
+#activityNorvege,
+#travelNorvege,
+#activityIslande,
+#travelIslande {
+  border-bottom: 1px solid black;
+}
+
+.paysBlock > div > div > div > p {
+  color: #2c395c;
+  text-shadow: 1px 1px 1px rgb(197, 196, 196);
+}
+
+.paysBlock > div > div > div > h4 {
+  color: #2c395c;
+  text-shadow: 1px 1px 1px rgb(197, 196, 196);
+}
+
+.paysBlock > div > div > h3 {
+  color: #2c395c;
+  text-shadow: 1px 1px 1px rgb(197, 196, 196);
 }
 
 @media only screen and (min-width: 600px) {
@@ -18,7 +103,6 @@ h2 {
     display: none;
   }
   h2 {
-    color: red;
     display: flex;
     justify-content: center;
     width: auto;
@@ -32,24 +116,31 @@ h2 {
     margin-top: 60px;
     display: flex;
     justify-content: flex-start;
-    
-    
   }
-   #btnPays1, #btnPays2, #btnPays3, #btnPays4, #btnPaysRes{
-    background-color: #0C9BE3;
+  #btnPays1,
+  #btnPays2,
+  #btnPays3,
+  #btnPays4,
+  #btnPaysRes {
+    background-color: #0c9be3;
+    font-size: 20px;
     border-radius: 20px;
     color: white;
-    width: 75px;
-    height: 30px;
+    width: 100px;
+    height: 50px;
     margin: auto;
-    padding-top: 8px;
-    border : none;
+    padding-top: 4px;
+    border: none;
     justify-content: center;
     box-shadow: 1px 1px 1px grey;
     text-shadow: 1px 1px 1px grey;
-   }
+  }
 
-  .paysBlock {
+  .contentFinlande,
+  .contentSuede,
+  .contentNorvege,
+  .contentIslande {
+    padding: 10px 10px 20px 20px;
     border-radius: 10px;
     margin-right: 100px;
     margin-left: 100px;
@@ -57,7 +148,44 @@ h2 {
     box-shadow: 2px 2px 2px 2px rgb(156 156 156);
   }
 
-  #activityFinlande, #travelFinlande, #activitySuede, #travelSuede, #activityNorvege, #travelNorvege, #activityIslande, #travelIslande{
+  .contentFinlande {
+    background-color: #00b1dd18;
+  }
+
+  .contentSuede {
+    background-color: #008cdd4d;
+  }
+  .contentNorvege {
+    background-color: #00dda618;
+  }
+
+  .contentIslande {
+    background-color: #2900dd18;
+  }
+
+  #activityFinlande,
+  #travelFinlande,
+  #activitySuede,
+  #travelSuede,
+  #activityNorvege,
+  #travelNorvege,
+  #activityIslande,
+  #travelIslande {
     border-bottom: 1px solid black;
+  }
+
+  .paysBlock > div > div > div > p {
+    color: #2c395c;
+    text-shadow: 1px 1px 1px rgb(197, 196, 196);
+  }
+
+  .paysBlock > div > div > div > h4 {
+    color: #2c395c;
+    text-shadow: 1px 1px 1px rgb(197, 196, 196);
+  }
+
+  .paysBlock > div > div > h3 {
+    color: #2c395c;
+    text-shadow: 1px 1px 1px rgb(197, 196, 196);
   }
 }

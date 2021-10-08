@@ -1,5 +1,5 @@
 // Importation de mon objet pour avoir acces à toutes les données de son contenu.
-import country from "./country.js";
+import country from './country.js';
 
 //----------------------------------------Génération article----------------------------------------
 
@@ -97,3 +97,12 @@ for (let i = 0; i < country.length; i++) {
     }
   }
 }
+
+var menuBtn = document.querySelector('#menuBtn');
+var nav = document.querySelector('#navigatorMobile');
+
+// show or hide
+  menuBtn.addEventListener('click',function(){
+    nav.classList.toggle('openNav');
+  menuBtn.classList.toggle('closeNav');
+});
