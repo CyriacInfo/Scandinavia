@@ -133,10 +133,9 @@ object-fit: cover;
 .blockPays {
     display: flex;
     justify-content: center;
-    padding: 20px 20px 10px 20px;
+    padding: 20px 0px;
     height: 300px;
     width : 200px;
-   
 }
 
 .titrePays {
@@ -360,6 +359,8 @@ object-fit: cover;
 
   #footer {
     display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
     padding: 0;
     background: rgb(44,57,92);
 background: linear-gradient(90deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, rgba(0,88,106,0.72) 83%);
@@ -373,6 +374,8 @@ background: linear-gradient(90deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, 
     display: block;
     color: white;
     text-shadow:  1px 1px 1px black ;
+    justify-content: space-around;
+    padding: 3px;
   }
   
   #footer li a {
@@ -382,6 +385,11 @@ background: linear-gradient(90deg, rgba(44,57,92,1) 24%, rgba(9,141,172,1) 56%, 
   }
   #footer li a:hover {
       color:rgb(0, 176, 189)
+  }
+
+  .footNavigation {
+    display: flex;
+    flex-direction: column;
   }
   
   
